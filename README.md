@@ -5,7 +5,7 @@ It's a PHP library that provides helpful debugging tools inspired by the `dd` fu
 
 To install the library, follow these steps:
 
-Add the repository to your project's composer.json file:
+1. Add the repository to your project's composer.json file:
 
 ```json
 "repositories": [
@@ -16,7 +16,7 @@ Add the repository to your project's composer.json file:
 ]
 ```
 
-Add the library to the require-dev section of your composer.json file:
+2. Add the library to the require-dev section of your composer.json file:
 ```json
 "require-dev": {
     "plantae/dumper": "dev-master"
