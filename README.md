@@ -66,4 +66,3 @@ $sql = "SELECT * FROM users WHERE id = 1";
 dds($sql);
 echo 'This line of code will never be executed.';
 ```
-Neste exemplo, o script irá parar sua execução após exibir as informações do comando SQL $sql.
