@@ -1,0 +1,19 @@
+{
+  "name": "plantae/dumper",
+  "description": "`dd` is a helper method in Laravel. This package will add the `dd` to your application.",
+  "license": "MIT",
+  "type": "package",
+  "authors": [
+    {
+        "name": "Giovani Freitag",
+        "email": "giovani.freitag@plantae.agr.br"
+    }
+],
+  "require": {
+    "symfony/var-dumper": "^6.2",
+    "doctrine/sql-formatter": "^1.1"
+  },
+  "autoload": {
+    "files": ["src/helper.php"]
+  }
+}
